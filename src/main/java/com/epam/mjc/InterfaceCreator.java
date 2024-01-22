@@ -83,31 +83,31 @@ public class InterfaceCreator {
             return resList;
         };
     }
-    public static void main(String[] args) {
-        InterfaceCreator interfaceCreator = new InterfaceCreator();
-
-        List<String> list = new ArrayList<>();
-        list.add("String");
-        list.add("akaka");
-        List<Integer> list2 = new ArrayList<>();
-        list2.add(48);
-        list2.add(13);
-        list2.add(100);
-        list2.add(5);
-        list2.add(222);
-        list2.add(3);
-        List<String> list3 = new ArrayList<>();
-        list3.add("This is a good way to learn Java Functional Interfaces.");
-        list3.add("This is a good weather");
-        list3.add("Hello world in Java.");
-        List<Integer> list4 = new ArrayList<>();
-        list4.add(48);
-        list4.add(56);
-        list4.add(100);
-        list4.add(200);
-        list4.add(222);
-
-        //System.out.println(interfaceCreator.concatList().apply(list2, list4));
-        interfaceCreator.addEvenValuesAtTheEnd().accept(list4);
-    }
+//    public static void main(String[] args) {
+//        InterfaceCreator interfaceCreator = new InterfaceCreator();
+//
+//        List<String> list = new ArrayList<>();
+//        list.add("String");
+//        list.add("akaka");
+//        List<Integer> list2 = new ArrayList<>();
+//        list2.add(48);
+//        list2.add(13);
+//        list2.add(100);
+//        list2.add(5);
+//        list2.add(222);
+//        list2.add(3);
+//        List<String> list3 = new ArrayList<>();
+//        list3.add("This is a good way to learn Java Functional Interfaces.");
+//        list3.add("This is a good weather");
+//        list3.add("Hello world in Java.");
+//        List<Integer> list4 = new ArrayList<>();
+//        list4.add(48);
+//        list4.add(56);
+//        list4.add(100);
+//        list4.add(200);
+//        list4.add(222);
+//
+//        //System.out.println(interfaceCreator.concatList().apply(list2, list4));
+//        interfaceCreator.addEvenValuesAtTheEnd().accept(list4);
+//    }
 }
